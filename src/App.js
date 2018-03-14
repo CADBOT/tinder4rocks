@@ -2,6 +2,20 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import RockList from './components/RockList'
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1> Welcome to Tinder 4 Rocks! </h1>
+        <RockList />
+      </div>
+    )
+  }
+}
+
+/*
 class App extends Component {
   render() {
     return (
@@ -17,5 +31,6 @@ class App extends Component {
     );
   }
 }
+*/
 
 export default App;
